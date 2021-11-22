@@ -71,6 +71,6 @@ if __name__ == '__main__':
         st.success("Welcome")
         flow()
     elif password=='':
-        st.info("Enter Password")
+        st.warning("Enter Password")
     else:
         st.error("Wrong Password entered")
